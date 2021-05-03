@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #EB4751;
+}
+
+.container {
+  max-width: 1689px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+header {
+  position: relative;
+  padding-bottom: 330px;
+}
+
+header::before {
+  content: '';
+  display: block;
+  background: url(../img/airplane.svg) left no-repeat;
+  width: 910.4px;
+  height: 527.21px;
+  position: absolute;
+  top: 16%;
+  z-index: 1;
+}
+
+header::after {
+  content: '';
+  display: block;
+  width: 1148px;
+  height: 1417px;
+  position: absolute;
+  background: url(../img/header_bg.png) right no-repeat;
+  right: 0;
+  top: 16%;
+}
+
+header h1 {
+  font-family: PT Sans Caption;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 86px;
+  max-width: 487px;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 50px;
+}
+
+.wraper_images .airplane {
+  position: absolute;
+  left: 0;
+  top: 258px;
+  z-index: 1;
+  transform: rotate(177.7px);
+  -webkit-transform: rotate(177.7px);
+  -moz-transform: rotate(177.7px);
+  -ms-transform: rotate(177.7px);
+  -o-transform: rotate(177.7px);
+}
+
+.wraper_images .header_bg {
+  position: absolute;
+  top: 224px;
+  right: 0;
+  z-index: 1;
+}
+
+.wraper_images .content {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 100px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.28);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  left: -103px;
+  top: 69%;
+  position: absolute;
+  width: 915px;
+}
+
+.aircraft {
+  position: relative;
+}
+
+.aircraft::before {
+  content: '';
+  display: block;
+  background: url(../img/airplane_2.png) right no-repeat;
+  position: absolute;
+  max-width: 2026px;
+  height: 933px;
+  width: 100%;
+}
+
+.aircraft .container {
+  padding: 0 203px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.aircraft .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aircraft .decoration {
+  font-family: Padauk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 350px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.33);
+}
+
+.aircraft .subtitle span {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 52px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.aircraft .subtitle .content .title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.aircraft .subtitle .content .content {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.aircraft .content .links_bg {
+  padding-top: 50px;
+}
+
+.aircraft .content .links_bg a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.aircraft .content .links_bg a span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.aircraft .content .links_bg a .bg_circle_link {
+  margin-right: 20px;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 5px solid #FFFFFF;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.aircraft .content .links_bg a .bg_circle_link_active {
+  background-color: #4B4F58;
+  border: transparent;
+}
+
+.bg_circle {
+  position: relative;
+  width: 1033px;
+  margin-top: 182px;
+  margin-left: 456px;
+}
+
+.bg_circle::after {
+  content: '';
+  display: block;
+  position: relative;
+  width: 1033px;
+  height: 1015px;
+  border: 10px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.bg_circle::before {
+  content: '';
+  display: block;
+  width: 811px;
+  height: 782px;
+  border: 5px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.items {
+  position: relative;
+  padding-top: 250px;
+}
+
+.items .bg_circle_left {
+  width: 1033px;
+  height: 1015px;
+  position: absolute;
+  left: -50%;
+  z-index: -1;
+}
+
+.advanced .title {
+  font-family: PT Sans Caption;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.advanced .wraper_items {
+  padding-top: 76px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.advanced .wraper_items .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.advanced .wraper_items .item .number {
+  font-family: PT Sans Caption;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.51);
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  padding: 36px;
+  width: 129px;
+  height: 129px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.advanced .wraper_items .item .item_content {
+  font-family: PT Sans Caption;
+  font-style: normal;
+  color: #fff;
+  width: 467px;
+  margin-left: 35px;
+  padding-top: 20px;
+}
+
+.advanced .wraper_items .item .item_content .title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.advanced .wraper_items .item .item_content .content {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.image {
+  padding-bottom: 324px;
+}
+
+.image img {
+  display: block;
+  margin-top: -400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image:last-child img {
+  margin-top: -150px;
+}
+
+.image .title_footer {
+  font-family: PT Sans Caption;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 22px;
+}
+/*# sourceMappingURL=style.css.map */
